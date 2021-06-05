@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: rgba(211, 211, 211, 0.5); */
+  /* background-color: rgba(255, 230, 230, 0.2); */
+  /* background-color: #fceed1; */
+  font-family: Lato, sans-serif !important;
+  background:linear-gradient(96deg,#1d0927,#212639 42%,#223347);
+  color: white;
+  /* background:linear-gradient(271.28deg,#6751fe -1.29%,#03c98a 53.12%,#6851fe 117.3%) */
+  
+}
+.Instock {
+  color: rgb(124, 216, 124);
+}
+.unavailable {
+  color: red;
+}
+.imgcolor {
+  color: rgb(27, 23, 23);
+  padding: 0%;
+}
+.cardTitle {
+  max-width: 100;
+  margin-top: 20px;
+}
+button {
+  cursor: pointer;
+  border-radius: 4px;
+  height: 30px;
+  background-color: royalblue;
+  width: 120px;
+}
+@import url("https://fonts.googleapis.com/css?family=Muli");
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}

@@ -13,7 +13,8 @@ const styles = StyleSheet.create({
         cursor: 'pointer',
         position: 'absolute',
         left: 24,
-        top: 34
+        top: 34,
+        backgroundColor:'gray'
     },
     container: {
         backgroundColor: '#363740',

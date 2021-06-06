@@ -43,7 +43,7 @@ class App extends React.Component {
     const { selectedItem } = this.state;
   return (
     
-      <div>
+      <div className={css(styles.container)}>
      <div>
       <SidebarComponent selectedItem={selectedItem} onChange={(selectedItem) => this.setState({ selectedItem })}  />
       </div><div className="main"><Column flexGrow={1} className={css(styles.mainBlock)}>

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Row } from 'simple-flexbox';
 import { StyleSheet, css } from 'aphrodite';
 import { Link } from 'react-router-dom';
 
@@ -17,12 +16,12 @@ const styles = StyleSheet.create({
 
 function LogoComponent() {
     return (
-        <Row  horizontal="center" vertical="center" >
+        <div>
             <Link to='/' style={{textDecoration:'none'}}>
             <div style={{display:'flex', alignItems:'center'}}>
         <img src="https://launchbox.finance/images/logo.svg" alt="" style={{ height:"100px", width:'90px', overflow:'hidden'}}/>
             <p className={css(styles.title)}>Launch<b>BOX</b></p></div></Link>
-        </Row>
+        </div>
     );
 }
 

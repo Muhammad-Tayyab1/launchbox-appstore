@@ -10,7 +10,9 @@ const useClasses = makeStyles((theme) => ({
     [theme.breakpoints.down('sm')]: {
       maxWidth: '90vw'
     },
-    textAlign: 'center'
+    textAlign: 'center',
+    overflow:'hidden',
+    backgroundRepeat:'none',
   },
   cardRoot: {
     maxWidth: '100%',
@@ -18,6 +20,9 @@ const useClasses = makeStyles((theme) => ({
     height: '350px',
     display: 'flexbox',
     alignContent: 'center',
+    overflow:'hidden',
+    backgroundRepeat:'none',
+   
     
   },
   link: {

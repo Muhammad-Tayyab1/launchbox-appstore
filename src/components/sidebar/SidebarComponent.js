@@ -29,8 +29,8 @@ const styles = StyleSheet.create({
     containerMobile: {
         transition: 'left 0.5s, right 0.5s',
         position: 'absolute',
-        width: 255,
-        height: 900,
+        width: 230,
+        height: '100%',
         zIndex: 901
     },
     mainContainer: {

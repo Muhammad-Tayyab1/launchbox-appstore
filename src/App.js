@@ -12,13 +12,7 @@ import './App.css';
 import Page2 from './components/sidebar/Page2';
 
 const styles = StyleSheet.create({
-  container: {
-      height: '100%',
-      minHeight: '100vh',
-      display:'flex',
-      justifyContent:'space-around'
-  },
-  content: {
+   content: {
       marginTop: 54
   },
   mainBlock: {
@@ -43,7 +37,7 @@ class App extends React.Component {
     const { selectedItem } = this.state;
   return (
     
-      <div className={css(styles.container)}>
+      <div>
      <div>
       <SidebarComponent selectedItem={selectedItem} onChange={(selectedItem) => this.setState({ selectedItem })}  />
       </div><div className="main"><Column flexGrow={1} className={css(styles.mainBlock)}>

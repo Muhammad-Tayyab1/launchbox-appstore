@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
         transition: 'left 0.5s, right 0.5s',
         position: 'absolute',
         width: 255,
-        height: 600,
+        height: 900,
         zIndex: 901
     },
     mainContainer: {

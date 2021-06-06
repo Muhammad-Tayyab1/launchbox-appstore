@@ -11,6 +11,13 @@ body {
   /* background:linear-gradient(271.28deg,#6751fe -1.29%,#03c98a 53.12%,#6851fe 117.3%) */
   
 }
+.main{
+  margin-left: 200px;
+}
+@media (max-width: 768px){
+   .main{ margin-left: 0px !important}
+  }
+
 .Instock {
   color: rgb(124, 216, 124);
 }

@@ -10,8 +10,7 @@ const styles = StyleSheet.create({
     title: {
         
         fontSize: 25,
-        lineHeight: '24px',
-        letterSpacing: '0.4px',    
+        
         color:'white'
     }
 });
@@ -21,7 +20,7 @@ function LogoComponent() {
         <Row  horizontal="center" vertical="center" >
             <Link to='/' style={{textDecoration:'none'}}>
             <div style={{display:'flex', alignItems:'center'}}>
-        <img src="https://launchbox.finance/images/logo.svg" alt="" style={{ height:"100px", width:'100px'}}/>
+        <img src="https://launchbox.finance/images/logo.svg" alt="" style={{ height:"100px", width:'90px', overflow:'hidden'}}/>
             <p className={css(styles.title)}>Launch<b>BOX</b></p></div></Link>
         </Row>
     );

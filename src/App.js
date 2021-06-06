@@ -14,7 +14,9 @@ import Page2 from './components/sidebar/Page2';
 const styles = StyleSheet.create({
   container: {
       height: '100%',
-      minHeight: '100vh'
+      minHeight: '100vh',
+      display:'flex',
+      justifyContent:'space-around'
   },
   content: {
       marginTop: 54
@@ -40,10 +42,11 @@ class App extends React.Component {
   render() {
     const { selectedItem } = this.state;
   return (
-    <Row className={css(styles.container)}>
-     
-      <SidebarComponent selectedItem={selectedItem} onChange={(selectedItem) => this.setState({ selectedItem })} />
-      <Column flexGrow={1} className={css(styles.mainBlock)}>
+    
+      <div>
+     <div>
+      <SidebarComponent selectedItem={selectedItem} onChange={(selectedItem) => this.setState({ selectedItem })}  />
+      </div><div className="main"><Column flexGrow={1} className={css(styles.mainBlock)}>
       <HeaderComponent title={selectedItem}/>
       
       <Routes>     
@@ -52,8 +55,8 @@ class App extends React.Component {
         
         <Route path='/page2' element={<Page2 />} />
         <Route path='*' element={<NotFound />} />
-      </Routes></Column>
-    </Row>
+      </Routes></Column></div></div>
+   
   );
 }
 }

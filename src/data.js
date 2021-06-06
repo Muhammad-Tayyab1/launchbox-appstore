@@ -1,33 +1,34 @@
-export default [{
-  "id": 1,
-  "name": "lite racer adapt 3.0",
-  "price": 59,
-  "title": "a lightweight shoe with slip-on convenience.",
-  "description": "From heading to the gym early to hitting the streets for daily activities, these adidas shoes deliver. The slip-on construction gives them a snug and lightweight fit, and the midsole cushioning cradles your foot in cloud-like comfort.",
-  "images": [
-    require("./resources/shoe-images/shoe1-color1.png"),
-    require("./resources/shoe-images/shoe1-color2.png"),
-    require("./resources/shoe-images/shoe1-color3.png"),
-    require("./resources/shoe-images/shoe1-color4.png")
-  ],
-  "QuantityAvailable": 5,
-  "Category": "Shoes"
-},
-{
-  "id": 2,
-  "name": "zx 2k boost",
-  "price": 150,
-  "title": "future-ready trainers with wrapped boost for exceptional comfort.",
-  "description": "ZX takes an icon to a new dimension of comfy. Innovated for the ultimate squish with new wrapped BOOST, ZX never felt so good. A springy Boost midsole swaddled in a wrap-around gradient. A progressive look and technical design, brimming with Boost. Feels too good to be explained.",
-  "images": [
-    require("./resources/shoe-images/shoe2-color1.png"),
-    require("./resources/shoe-images/shoe2-color2.png"),
-    require("./resources/shoe-images/shoe2-color3.png"),
-    require("./resources/shoe-images/shoe2-color4.png")
-  ],
-  "QuantityAvailable": 5,
-  "Category": "Shoes"
-},
+export default [
+  {
+    "id": 1,
+    "name": "x9000l3",
+    "price": 95.00,
+    "title": "high-tech shoes inspired by gaming culture.",
+    "description": "Are you a gamer or are you an athlete? The answer is yes. adidas blended aspects of the virtual and the actual worlds to create these X9000L3 Shoes. Responsive cushioning in the forefoot and lightweight cushioning in the heel combine to keep your stride smooth and comfortable. The outsole tread pattern was inspired by computer-generated data and provides reliable traction on city streets.",
+    "images": [
+      require("./resources/shoe-images/shoe6-color1.png"),
+      require("./resources/shoe-images/shoe6-color2.png"),
+      require("./resources/shoe-images/shoe6-color3.png"),
+      require("./resources/shoe-images/shoe6-color4.png")
+    ],
+    "QuantityAvailable": 5,
+    "Category": "Shoes"
+  },{
+    "id": 2,
+    "name": "ultraboost 20",
+    "price": 150.00,
+    "title": "responsive running shoes with stitched-in support.",
+    "description": "Already a legend five years in, the adidas Ultraboost gets a colorful update. Pink equals powerful. Embrace the color that represents a drive for unity and meaningful change. The famously responsive cushioning has a bright hue that matches a stretchy knit upper that's made with recycled materials. Stitched-in reinforcement right where you need it keeps you supported and running at your best.",
+    "images": [
+      require("./resources/shoe-images/shoe3-color1.png"),
+      require("./resources/shoe-images/shoe3-color2.png"),
+      require("./resources/shoe-images/shoe3-color3.png"),
+      require("./resources/shoe-images/shoe3-color4.png")
+    ],
+    "QuantityAvailable": 5,
+    "Category": "Shoes"
+  },
+  
 {
   "id": 3,
   "name": "T-Shirt",
@@ -145,30 +146,31 @@ export default [{
   "Category": "Shoes"
 },
 {
-  "id": 11,
-  "name": "x9000l3",
-  "price": 95.00,
-  "title": "high-tech shoes inspired by gaming culture.",
-  "description": "Are you a gamer or are you an athlete? The answer is yes. adidas blended aspects of the virtual and the actual worlds to create these X9000L3 Shoes. Responsive cushioning in the forefoot and lightweight cushioning in the heel combine to keep your stride smooth and comfortable. The outsole tread pattern was inspired by computer-generated data and provides reliable traction on city streets.",
+"id": 11,
+  "name": "lite racer adapt 3.0",
+  "price": 59,
+  "title": "a lightweight shoe with slip-on convenience.",
+  "description": "From heading to the gym early to hitting the streets for daily activities, these adidas shoes deliver. The slip-on construction gives them a snug and lightweight fit, and the midsole cushioning cradles your foot in cloud-like comfort.",
   "images": [
-    require("./resources/shoe-images/shoe6-color1.png"),
-    require("./resources/shoe-images/shoe6-color2.png"),
-    require("./resources/shoe-images/shoe6-color3.png"),
-    require("./resources/shoe-images/shoe6-color4.png")
+    require("./resources/shoe-images/shoe1-color1.png"),
+    require("./resources/shoe-images/shoe1-color2.png"),
+    require("./resources/shoe-images/shoe1-color3.png"),
+    require("./resources/shoe-images/shoe1-color4.png")
   ],
   "QuantityAvailable": 5,
   "Category": "Shoes"
-},{
+},
+{
   "id": 12,
-  "name": "ultraboost 20",
-  "price": 150.00,
-  "title": "responsive running shoes with stitched-in support.",
-  "description": "Already a legend five years in, the adidas Ultraboost gets a colorful update. Pink equals powerful. Embrace the color that represents a drive for unity and meaningful change. The famously responsive cushioning has a bright hue that matches a stretchy knit upper that's made with recycled materials. Stitched-in reinforcement right where you need it keeps you supported and running at your best.",
+  "name": "zx 2k boost",
+  "price": 150,
+  "title": "future-ready trainers with wrapped boost for exceptional comfort.",
+  "description": "ZX takes an icon to a new dimension of comfy. Innovated for the ultimate squish with new wrapped BOOST, ZX never felt so good. A springy Boost midsole swaddled in a wrap-around gradient. A progressive look and technical design, brimming with Boost. Feels too good to be explained.",
   "images": [
-    require("./resources/shoe-images/shoe3-color1.png"),
-    require("./resources/shoe-images/shoe3-color2.png"),
-    require("./resources/shoe-images/shoe3-color3.png"),
-    require("./resources/shoe-images/shoe3-color4.png")
+    require("./resources/shoe-images/shoe2-color1.png"),
+    require("./resources/shoe-images/shoe2-color2.png"),
+    require("./resources/shoe-images/shoe2-color3.png"),
+    require("./resources/shoe-images/shoe2-color4.png")
   ],
   "QuantityAvailable": 5,
   "Category": "Shoes"

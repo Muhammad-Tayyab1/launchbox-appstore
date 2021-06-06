@@ -9,6 +9,10 @@ import IconBurger from '../../assets/icon-burger';
 import { Link } from 'react-router-dom';
 
 const styles = StyleSheet.create({
+    root:{
+        backgroundPosition:'fixed',
+        position:'fixed'
+    },
     burgerIcon: {
         cursor: 'pointer',
         position: 'absolute',
@@ -20,13 +24,13 @@ const styles = StyleSheet.create({
         backgroundColor: '#363740',
         width: 255,
         paddingTop: 0,
-        height: 'calc(100% - 32px)'
+        height: 900
     },
     containerMobile: {
         transition: 'left 0.5s, right 0.5s',
         position: 'absolute',
         width: 255,
-        height: 'calc(100% - 32px)',
+        height: 600,
         zIndex: 901
     },
     mainContainer: {
@@ -44,7 +48,7 @@ const styles = StyleSheet.create({
         marginTop: 10
     },
     outsideLayer: {
-        position: 'absolute',
+        position: 'fixed',
         width: '100vw',
         minWidth: '100%',
         height: '100%',
@@ -87,7 +91,7 @@ class SidebarComponent extends React.Component {
         const { expanded } = this.state;
         const isMobile = this.isMobile();
         return (
-            <div style={{ position: 'relative' }}>
+            <div  className={css(styles.root)}>
                 <Row className={css(styles.mainContainer)} breakpoints={{ 768: css(styles.mainContainerMobile) }}>
                     {(isMobile && !expanded) && this.renderBurger()}
                     <Column className={css(styles.container)} breakpoints={{ 768: css(styles.containerMobile, expanded ? styles.show : styles.hide) }}>

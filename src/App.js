@@ -6,7 +6,7 @@ import ProductsListing from './components/ProductsListing';
 import data from './data';
 import HeaderComponent from './components/HeaderComponent';
 import SidebarComponent from './components/sidebar/SidebarComponent';
-import { Column, Row } from 'simple-flexbox';
+import { Column } from 'simple-flexbox';
 import { StyleSheet, css } from 'aphrodite';
 import './App.css';
 import Page2 from './components/sidebar/Page2';
